@@ -6,7 +6,7 @@ A Youtube Mp3 Downloader hosted under https://chat.shyechern.com/.
 
 ## Demo
 
-<img src="https://github.com/ShyeChern/youtube-download/raw/master/gif/demo-download.gif" alt="Demo Download" width="400" height="150"> 
+<img src="https://github.com/ShyeChern/youtube-download/raw/master/gif/demo-download.gif" alt="Demo Download" width="400" height="400"> 
 
 ## Installation
 
