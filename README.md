@@ -1,6 +1,6 @@
 # Youtube Mp3 Downloader
 
-A Youtube Mp3 Downloader that convert your youtube link into mp3 file. It host under https://ytdl.shyechern.com/.
+A website that convert your youtube link into mp3 file. It host under https://ytdl.shyechern.com/.
 
 [Changelog](CHANGELOG.md)
 
