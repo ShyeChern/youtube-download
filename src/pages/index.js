@@ -29,7 +29,7 @@ export default function Home() {
 		<div className="container body">
 			<main>
 				<h1 className="fst-italic fw-bolder">Youtube Mp3 Downloader</h1>
-				<p className="">Start downloading by pasting the youtube url below.</p>
+				<p className="">Start download by pasting the youtube url below.</p>
 				<form onSubmit={download}>
 					<div>
 						<p className="text-danger">{errorText}</p>
