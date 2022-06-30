@@ -13,6 +13,7 @@ export default async function handler(req, res) {
 				'Content-Disposition': `attachment; filename="${encodeURIComponent(
 					info.videoDetails.title
 				)}.mp3"`,
+				// 'Content-Length': '100000', // may set the file size in bytes to show progress
 			});
 
 			// get stream
@@ -20,9 +21,9 @@ export default async function handler(req, res) {
 				filter: 'audioonly',
 				format: 'mp3',
 			});
+
 			// ouput stream as mp3 file
 			ffmpeg(stream).format('mp3').output(res).run();
-
 		} else {
 			res.status(404).send();
 		}
