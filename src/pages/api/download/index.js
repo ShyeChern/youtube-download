@@ -3,6 +3,12 @@ const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
 const ffmpeg = require('fluent-ffmpeg');
 ffmpeg.setFfmpegPath(ffmpegPath);
 
+export const config = {
+	api: {
+		responseLimit: false,
+	},
+};
+
 export default async function handler(req, res) {
 	try {
 		if (req.method === 'GET') {

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.3 (2023-06-25)
+### Misc
+* Disable api response size limit
+* Set `NODE_OPTIONS = openssl-legacy-provider` when run in dev
+
 ## v1.0.2 (2021-11-06)
 ### Fix
 * Fix mp3 file format
